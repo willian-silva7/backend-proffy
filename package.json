@@ -10,6 +10,7 @@
     "typeorm": "ts-node-dev -r tsconfig-paths/register ./node_modules/typeorm/cli.js",
     "test": "jest",
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "knex:migrate:rollback": "knex --knexfile knexfile.ts migrate:rollback",
     "knex:seed": "knex --knexfile knexfile.ts seed:run"
   },
   "keywords": [],
